@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left:20%;
+            margin-right:20%;
+        }
+        .left-side{
+            float:left;
+            border-style:none;
+            background-color:rgb(0,60,68);
+            width:40%;
+            height:1150px;
+            left:0;
+            font-family: 'Times New Roman', Times, serif;
+            line-height:30px;
+            color:gainsboro;
+            font-size:20px;
+        }
+        img{
+            float:none;
+            clear:left;
+            clear:right;
+            position:relative;
+            top:20px;
+            margin:10%;
+            height:260px;
+        }
+        .personal-info{
+            position:relative;
+            left:5%;
+            font-size:16px;
+        }
+        .right-side{
+            background-color:gainsboro;
+            border-style:none;
+            width:60%;
+            float:left;
+            font-family:'Times New Roman', Times, serif;
+            line-height:20px;
+            height:1150px;
+        }
+        .subtitle{
+            border-radius:5px;
+            border-style:none;
+            background-color:rgb(0,60,68);
+            color:gainsboro;
+            position:relative;
+            left:20px;
+            font-size:24px;
+            height:30px;
+        }
+        .content{
+            position:relative;
+            width:90%;
+            left:5%;
+            font-size:12px;
+        }
+        .date{
+            display:inline-block;
+            text-align:end;
+        }
+        .summary{
+            position:relative;
+            left:5%;
+            color:gainsboro;
+            font-size:24px;
+            height: 100%;
+        }
+        .left-content{
+            position:relative;
+            left:5%;
+            font-size:14px;
+        }
+        ul{
+            font-size:14px;
+        }
+        #skill1{
+            border-radius:5px;
+            border-style:none;
+            height:20px;
+            width:70%;
+            background-color: gainsboro;
+        }
+        #skill2{
+            border-radius:5px;
+            border-style:none;
+            height:20px;
+            width:70%;
+            background-color: gainsboro;
+        }
+        #skill3{
+            border-radius:5px;
+            border-style:none;
+            height:20px;
+            width:80%;
+            background-color: gainsboro;
+        }
+        .interest1{
+            border-radius:10px;
+            background-color:gainsboro;
+            color:rgb(0,60,68);
+            position:relative;
+            left:5%;
+            font-size:14px;
+            float:left;
+            clear:left;
+        }
+        .interest2{
+            border-radius:10px;
+            background-color:gainsboro;
+            color:rgb(0,60,68);
+            position:relative;
+            right:30%;
+            font-size:14px;
+            float:right;
+            clear:right;
+        }
+        .content .date {
+            float: right; 
+        }
+    </style>
+</head>
+<body>
+    <div class="left-side">
+    <img src="证件照.jpg" alt="Placeholder">
+    <p class="personal-info">
+    Name: Zhu Yukuan<br/>
+    Gender: Male<br/>
+    Date of Birth: May 2002<br/>
+    Contact Information: +1 7348828017 (Primary)<br/>
+    +86 17317141633<br/>
+    yukuanz@umich.edu (Primary)<br/>
+    k798969539@sjtu.edu.cn
+    </p >
+    <hr/>
+    <span class="summary"><b>Professional Skills:</b></span>
+    <ul>
+    <li> <b>C/C++</b> </li>
+    <li> <b>Python</b> </li>
+    <li> <b>HTML</b> </li>
+    <li> <b>CSS</b> </li>
+    <li> <b>JavaScript</b> </li>
+    <li> <b>R</b> </li>
+    <li> <b>SQL</b>
+    <li> <b>Tableau</b> </li>
+    <li> <b>English</b> </li>
+    </ul>
+    <hr/>
+    <span class="summary"><b>Hobbies:</b></span>
+    <ul>
+        <li> <b>Skiing</b> </li>
+        <li> <b>Table Tennis</b> </li>
+        <li> <b>Travelling</b> </li>
+    </ul>   
+    </div>
+    <div class="right-side">
+    <h1 style="text-align: center;"><b>Curriculum Vitae</b></h1>
+    <h2><span class="subtitle">&nbspEducational Background&nbsp</span></h2>
+    <hr/>
+    <div class="content">
+    University of Michigan, Ann Arbor School of Information, Master of Data Analytics
+    <br>    
+    <span class="date">— September 2023 to Present</span>
+    <br>
+    <br>
+    University of Michigan - Shanghai Jiao Tong University Joint Institute, Bachelor of Electrical and Computer Engineering
+    <span class="date">— September 2020 to Present</span>
+    </div>
+    <h2><span class="subtitle">&nbspProject Experience&nbsp</span></h2><hr/>
+    <div class="content">
+    <b>Amazon User Recommendation System</b>
+    <span class="date">— February 2024 to Present</span><br>
+    Project Description: Utilized Amazon dataset, conducted keyword extraction on user reviews and product descriptions using BERT model, clustered extracted vectors, and predicted preferred product types for different user segments using neural networks, random forests, etc., providing recommendations for users.<br/>
+    <br>
+    <b>Algorithm Optimization for TSP Problem</b>
+    <span class="date">— January 2024</span><br>
+    Project Description: Solved Traveling Salesman Problem (TSP) and optimized route planning. Improved path length by applying simulated annealing, genetic algorithm, and particle swarm optimization. Adjusted algorithm parameters using grid search, handled constraints, and validated solution's generalization ability through large-scale data testing and report completion.<br/>
+    <br>
+    <b>Personalized Website Development</b>
+    <span class="date">— November 2023 to December 2023</span><br>
+    Project Description: Created a website using HTML, CSS, and JavaScript for introducing tourist attractions in multiple locations: <a href="https://kennethzhu-0.github.io/SI539_final_project/Home.html">Visit Website</a><br>
+    <br>
+    <b>Predicting Hypertension Using Kaggle Dataset</b>
+    <span class="date">— November 2023 to December 2023</span><br>
+    <br>
+    Project Description: Predicted hypertension onset using Kaggle dataset. Conducted data cleaning, correlation analysis, and clustering. Utilized models such as random forests, gradient boosting, neural networks, etc., based on users' physical examination data to predict the probability of hypertension onset.<br>
+    <br>
+    <b>Research Project: "Study on the Decomposition Effect of Ecological Digesters on Ammonia Nitrogen, Phosphorus, and Other Substances" - Team Leader</b>
+    <div class="date">— May 2018 to September 2019</div><br>
+    <br>
+    Project Description: Led a team and personally participated in researching the degradation effect of microbial+aeration systems on nutrients in water. Awarded the Second Prize in the "Sylimore Cup" National High School Students' Water Science and Technology Invention Competition and Stockholm Junior Water Prize China Regional Selection.<br/>
+    </div>
+    <h2><span class="subtitle">&nbspWork Experience&nbsp</span></h2>
+    <hr/>
+    <div class="content">
+    <b>Accenture (China) Co., Ltd. (Internship)</b>
+    <div class="date">— October 2023 to January 2024</div><br>    
+    Job Description: Investigated the industrial Internet situations in China, the United States, and Europe, gained in-depth understanding of digital twin technology, submitted analysis reports, and participated in algorithm optimization.<br/>
+    </div>
+    </div>
+    </body>
+</html>
